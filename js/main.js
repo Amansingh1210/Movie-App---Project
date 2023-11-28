@@ -44,7 +44,7 @@ close.addEventListener("click", () =>{
 
 
 const trailer = document.getElementById("first")
-trailer.addEventListener("mouseover", () =>{
+trailer.addEventListener("click", () =>{
     window.location = "breaking-bad.html"
     // window.focus();
 })
