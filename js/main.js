@@ -50,7 +50,18 @@ trailer.addEventListener("click", () =>{
 })
 
 // console.log(setid.attributes)
-const setid = document.getElementsByClassName(".cards")[0]
-console.log(setid.attributes)
-setid.setAttribute("id","watch")
+// const setid = document.getElementsByClassName(".cards")[0]
+// console.log(setid.attributes)
+// setid.setAttribute("id","watch")
 
+
+
+/* ------------------------------- To watch a Trailer ------------------------------- */
+
+
+const toWatchtrailer = document.getElementById("toWatch")
+// console.log(toWatchtrailer);
+toWatchtrailer.addEventListener("click", () => {
+    window.location = "https://www.youtube.com/watch?v=1JLUn2DFW4w/autoplay"
+    // window.focus();
+})
